@@ -2,13 +2,11 @@
 This project analyzes clinical data to predict the logarithm of prostate-specific antigen (lpsa) using a range of machine learning models. The dataset contains features such as age, prostate volume, Gleason score, and other diagnostic indicators relevant to prostate cancer. The goal is to explore which variables are most influential and to evaluate model performance in predicting lpsa values.
 
 📁 Project Structure
-bash
-Copy
-Edit
 
-├── prostate_cancer_organized.ipynb  # Main Jupyter Notebook with code and analysis
-├── prostate.csv                     # Dataset used for training and testing
-└── README.md                        # Project description and usage guide
+prostate_cancer_organized.ipynb  # Main Jupyter Notebook with code and analysis
+prostate.csv                     # Dataset used for training and testing
+README.md                        # Project description and usage guide
+
 📊 Dataset
 The dataset includes the following features:
 
@@ -63,23 +61,14 @@ Visualizations (heatmaps, learning curves) were instrumental in understanding da
 ⚙️ How to Run
 Clone this repository:
 
-bash
-Copy
-Edit
 git clone https://github.com/yourusername/prostate-cancer-analysis.git
 
 ## Install dependencies:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
 
 ## Open the notebook:
 
-bash
-Copy
-Edit
 jupyter notebook prostate_cancer_organized.ipynb
 
 🧰 Dependencies
@@ -99,9 +88,7 @@ TensorFlow (for optional neural net models)
 
 Install all required packages using:
 
-bash
-Copy
-Edit
 pip install numpy pandas matplotlib seaborn scikit-learn tensorflow
+
 📜 License
 This project is open-source and free to use under the MIT License.
